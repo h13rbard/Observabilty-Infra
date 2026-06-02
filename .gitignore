@@ -1,0 +1,43 @@
+# =========================
+# Grafana Runtime Data
+# =========================
+docker/grafana/data/
+docker/grafana/png/
+docker/grafana/csv/
+docker/grafana/pdf/
+docker/grafana/unified-search/
+docker/grafana/grafana.db
+# =========================
+# Prometheus Runtime Data
+# =========================
+docker/prometheus/data/
+
+# =========================
+# Loki Runtime Data
+# =========================
+docker/loki/data/
+
+# =========================
+# Uptime Kuma Database
+# =========================
+docker/uptime-kuma/*.db
+docker/uptime-kuma/*.db-shm
+docker/uptime-kuma/*.db-wal
+
+# =========================
+# Alertmanager Runtime Data
+# =========================
+docker/alertmanager/data/
+
+# =========================
+# Temporary Files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
