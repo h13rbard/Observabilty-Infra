@@ -27,6 +27,8 @@ This project was built to strengthen practical skills in:
 ---
 
 ##   Architecture Summary
+![](/opt/observability/diagrams/architecture.png)
+
 
 The platform consists of the following services:
 
